@@ -1,0 +1,36 @@
+.createTask {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    position: absolute;
+}
+
+.createTask>textarea {
+    width: 638px;
+    height: 22px;
+    border: 1px solid #0D0D0D;
+    background-color: #333333;
+    border-radius: 8px;
+    padding: 16px 0 16px 16px;
+    color: #808080;
+    overflow: hidden;
+    resize: none;
+}
+
+.createTask>button {
+    width: 90px;
+    height: 52px;
+    border: 0 solid #0D0D0D;
+    border-radius: 8px;
+    background-color: #1E6F9F;
+    color: #FFFFFF;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.createTask>button[disabled] {
+    background-color: #808080;
+    cursor: not-allowed;
+
+}

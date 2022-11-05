@@ -1,0 +1,32 @@
+.task {
+    height: 40px;
+    width: 736px;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px;
+    align-items: center;
+    background: #262626;
+    display: grid;
+    grid-template-columns: 80px 1fr 70px;
+}
+
+.task + .task {
+    margin-top: 1.8rem;
+}
+
+.task p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #F2F2F2;
+}
+
+.task p[title="done"] {
+    text-decoration: line-through;
+    color: #808080;
+}
+
+.task span {
+    padding-left: 30px;
+    cursor: pointer;
+}
